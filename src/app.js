@@ -11,7 +11,7 @@ function sharingUrl(){
                 const url = ev.target.parentElement.href;
 
                 navigator.share({
-                    url: url
+                    text: url
                 });
                 return false
             });

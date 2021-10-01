@@ -17,15 +17,15 @@ a{
 }
 body{
     background: #9CECFB;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to bottom, #0052D4, #65C7F7, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #0052D4, #65C7F7, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .logo{
     display: block;
     margin: 2rem auto;
-    width: 75%;
-    max-width: 30rem;
+    width: 20rem;
+/*     max-width: 30rem; */
 }
 
 .contenedor{
