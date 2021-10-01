@@ -11,6 +11,8 @@ body{
 .logo{
     display: block;
     margin: 2rem auto;
+    width: 85%;
+    max-width: 30rem;
 }
 
 .contenedor{
