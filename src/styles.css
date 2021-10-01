@@ -12,6 +12,9 @@ body{
 h1, h2, h3, p, a{
     font-family: 'Roboto', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 body{
     background: #9CECFB;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
@@ -75,14 +78,10 @@ body{
 }
 .card_text div, .card_text h2, .card_text a{
     margin: 0;
-    text-decoration: none;
     color: #fff;
     font-size: 24px;
 }
-/* .box-icon a{
-    width: 36px;
-    height: 36px;
-} */
+
 .box-icon img{
     width: 30px;
     height: 30px;
@@ -92,4 +91,8 @@ body{
 /* Footer */
 footer{
     text-align: center;
+}
+footer a{
+    color: #0034c8;
+    font-weight: 700;
 }
