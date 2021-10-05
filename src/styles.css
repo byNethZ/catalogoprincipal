@@ -51,6 +51,11 @@ body{
     width: 85%;
     height: 20rem;
 }
+@media (min-width: 1300px) {
+    .card_Img:last-of-type{
+        grid-column: 2/3;        
+    }
+}
 .card_Img img{
     width: 100%;
     height: 100%;
@@ -91,4 +96,44 @@ footer{
 footer a{
     color: #0034c8;
     font-weight: 700;
+}
+
+/* Card Install */
+.bgDark{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: .7;
+    transition: opacity .5s ease;
+}
+.cardInstall{
+    position: fixed;
+    top: 20rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    width: 85%;
+    max-width: 20rem;
+    height: 85%;
+    max-height: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    color: rgb(88, 88, 88);
+    transition: top .5s ease;
+}
+.cardInstall img{
+    max-width: 5rem;
+    display: block;
+    margin: 2rem auto;
+}
+
+.cardInstall h2, .cardInstall p{
+    cursor: pointer;
 }
