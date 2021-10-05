@@ -7,6 +7,10 @@ let bgCard = document.querySelector('.bgDark')
 document.addEventListener('DOMContentLoaded', function(){
     sharingUrl();
     initSW();
+    window.addEventListener('beforeinstallprompt', (e)=>{
+        e.preventDefault();
+        deferredPrompt = e;
+    });
     savePrompt();
     if (!window.matchMedia('(display-mode: fullscreen)').matches) {
         showCardInstall();
@@ -47,11 +51,6 @@ function initSW(){
 }
 
 function savePrompt(){
-    window.addEventListener('beforeinstallprompt', (e)=>{
-        e.preventDefault();
-        deferredPrompt = e;
-    });
-    
     btnAdd.addEventListener('click', (e)=>{
         deferredPrompt.prompt();
         deferredPrompt.userChoice.then((choiceResult)=>{
