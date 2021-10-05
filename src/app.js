@@ -68,7 +68,7 @@ function savePrompt(){
 }
 
 function showCardInstall(){
-    cardInstall.style.top = '20rem';
+    cardInstall.style.top = '15rem';
     bgCard.style.opacity = '0.7';
     bgCard.style.pointerEvents = 'unset';
 
