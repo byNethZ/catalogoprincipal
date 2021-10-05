@@ -106,12 +106,13 @@ footer a{
     left: 0;
     right: 0;
     background-color: #000;
-    opacity: .7;
+    opacity: 0;
     transition: opacity .5s ease;
+    pointer-events: none;
 }
 .cardInstall{
     position: fixed;
-    top: 15rem;
+    top: -40rem;
     bottom: 0;
     left: 0;
     right: 0;
