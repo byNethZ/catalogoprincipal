@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function(){
         deferredPrompt = e;
     });
     savePrompt();
-    if (!window.matchMedia('(display-mode: standalone)').matches) {
+    if (!window.matchMedia('(display-mode: fullscreen)').matches) {
         showCardInstall();
       }
 });
