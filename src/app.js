@@ -1,6 +1,6 @@
 let deferredPrompt;
 let btnAdd = document.querySelector('#install');
-let btnHide = document.querySelector('#luego');
+// let btnHide = document.querySelector('#luego');
 let cardInstall = document.querySelector('.cardInstall')
 let bgCard = document.querySelector('.bgDark')
 
@@ -72,11 +72,11 @@ function showCardInstall(){
     bgCard.style.opacity = '0.7';
     bgCard.style.pointerEvents = 'unset';
 
-    btnHide.addEventListener('click', hiddeCardInstall);
+    // btnHide.addEventListener('click', hiddeCardInstall);
 }
 
-function hiddeCardInstall(){
+/* function hiddeCardInstall(){
     cardInstall.style.top = '-40rem';
     bgCard.style.opacity = '0';
     bgCard.style.pointerEvents = 'none';
-}
+} */

@@ -120,13 +120,13 @@ footer a{
     width: 85%;
     max-width: 20rem;
     height: 85%;
-    max-height: 20rem;
+    max-height: 18rem;
     margin-left: auto;
     margin-right: auto;
     padding: 2rem;
     border-radius: 2rem;
     text-align: center;
-    color: rgb(88, 88, 88);
+    color: #fff;
     transition: top .5s ease;
 }
 .cardInstall img{
@@ -134,7 +134,12 @@ footer a{
     display: block;
     margin: 2rem auto;
 }
-
-.cardInstall h2, .cardInstall p{
+.btnInstall h2{
+    margin: 0;
+}
+.btnInstall{
     cursor: pointer;
+    padding: .5rem;
+    background-color: #0034c8;
+    border-radius: .5rem;
 }
